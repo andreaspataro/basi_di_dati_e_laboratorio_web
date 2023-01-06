@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="home.css">
+		<meta charset="utf-8">
+		<script src="https://code.jquery.com/jquery-3.5.1.js"
+			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			crossorigin="anonymous"></script>
+	</head>
+	<header>
+		<nav>
+			<ul>
+				<li><a class="links" href="accesso.php">Accedi</a></li>
+				<li><a class="links" href="home.php">Home</a></li>
+			</ul> 
+		</nav>
+	</header>
+	<body>
+		<form action="registrazione.php" method="get" id="form">
+			<input type="hidden" id="selezione" name="selezione">
+		</form>
+		<h2 style="font-size:45px;margin-bottom: 0px;">Scegli Un Piano</h2>
+		<div class="containerPlans">
+			<div class="free plan">
+				<div class="planTitle">Gratis</div>
+				<div class="planslist">
+					2 Blog per Utente <br>
+					Tema Standard
+				</div>
+				<button class="button white gratis" type="button" onclick="window.location.href='registrazione.php?selezione=gratis'">Registrati Gratis</button>
+			</div>
+			<div class="pro plan">
+				<div class="planTitle">Premium</div>
+				<div class="planslist">
+					Blog Illimitati <br>
+					Personalizzazione Temi e Font
+				</div>
+				<button class="button blue premium" type="button" onclick="window.location.href='registrazione.php?selezione=premium'">Premium</button>
+			</div>
+		</div>
+	</body>
+</html>
