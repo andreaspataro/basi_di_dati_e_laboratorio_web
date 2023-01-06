@@ -1,1 +1,2 @@
-# basi_di_dati_e_laboratorio_web
+# basi di dati e laboratorio web
+Progetto d'esame per il corso di Basi di Dati e Laboratorio Web a.a. 2019-2020.
